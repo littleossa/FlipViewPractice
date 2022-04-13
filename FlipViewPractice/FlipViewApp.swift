@@ -1,14 +1,14 @@
 //
-//  FlipViewApp.swift
+//  FlipViewPracticeApp.swift
 //  FlipView
 //
-//  Created by 平岡修 on 2022/04/13.
+//  Created by littleossa on 2022/04/13.
 //
 
 import SwiftUI
 
 @main
-struct FlipViewApp: App {
+struct FlipViewPracticeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

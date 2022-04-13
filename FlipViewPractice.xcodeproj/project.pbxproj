@@ -14,11 +14,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		974111C9280628EC002A95E8 /* FlipView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		974111C9280628EC002A95E8 /* FlipViewPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipViewPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		974111CC280628EC002A95E8 /* FlipViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipViewApp.swift; sourceTree = "<group>"; };
 		974111CE280628EC002A95E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		974111D0280628EE002A95E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		974111D3280628EE002A95E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		974111DA28065EDF002A95E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +36,7 @@
 		974111C0280628EC002A95E8 = {
 			isa = PBXGroup;
 			children = (
-				974111CB280628EC002A95E8 /* FlipView */,
+				974111CB280628EC002A95E8 /* FlipViewPractice */,
 				974111CA280628EC002A95E8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +44,21 @@
 		974111CA280628EC002A95E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				974111C9280628EC002A95E8 /* FlipView.app */,
+				974111C9280628EC002A95E8 /* FlipViewPractice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		974111CB280628EC002A95E8 /* FlipView */ = {
+		974111CB280628EC002A95E8 /* FlipViewPractice */ = {
 			isa = PBXGroup;
 			children = (
+				974111DA28065EDF002A95E8 /* Info.plist */,
 				974111CC280628EC002A95E8 /* FlipViewApp.swift */,
 				974111CE280628EC002A95E8 /* ContentView.swift */,
 				974111D0280628EE002A95E8 /* Assets.xcassets */,
 				974111D2280628EE002A95E8 /* Preview Content */,
 			);
-			path = FlipView;
+			path = FlipViewPractice;
 			sourceTree = "<group>";
 		};
 		974111D2280628EE002A95E8 /* Preview Content */ = {
@@ -70,9 +72,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		974111C8280628EC002A95E8 /* FlipView */ = {
+		974111C8280628EC002A95E8 /* FlipViewPractice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 974111D7280628EE002A95E8 /* Build configuration list for PBXNativeTarget "FlipView" */;
+			buildConfigurationList = 974111D7280628EE002A95E8 /* Build configuration list for PBXNativeTarget "FlipViewPractice" */;
 			buildPhases = (
 				974111C5280628EC002A95E8 /* Sources */,
 				974111C6280628EC002A95E8 /* Frameworks */,
@@ -82,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = FlipView;
+			name = FlipViewPractice;
 			productName = FlipView;
-			productReference = 974111C9280628EC002A95E8 /* FlipView.app */;
+			productReference = 974111C9280628EC002A95E8 /* FlipViewPractice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 974111C4280628EC002A95E8 /* Build configuration list for PBXProject "FlipView" */;
+			buildConfigurationList = 974111C4280628EC002A95E8 /* Build configuration list for PBXProject "FlipViewPractice" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				974111C8280628EC002A95E8 /* FlipView */,
+				974111C8280628EC002A95E8 /* FlipViewPractice */,
 			);
 		};
 /* End PBXProject section */
@@ -266,13 +268,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FlipView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FlipViewPractice/Preview Content\"";
 				DEVELOPMENT_TEAM = 2V4975L824;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlipViewPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -280,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.hotmail.lilossa.FlipView;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.hotmail.lilossa.FlipViewPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -295,13 +299,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FlipView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FlipViewPractice/Preview Content\"";
 				DEVELOPMENT_TEAM = 2V4975L824;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlipViewPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,7 +315,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.hotmail.lilossa.FlipView;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.hotmail.lilossa.FlipViewPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		974111C4280628EC002A95E8 /* Build configuration list for PBXProject "FlipView" */ = {
+		974111C4280628EC002A95E8 /* Build configuration list for PBXProject "FlipViewPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				974111D5280628EE002A95E8 /* Debug */,
@@ -329,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		974111D7280628EE002A95E8 /* Build configuration list for PBXNativeTarget "FlipView" */ = {
+		974111D7280628EE002A95E8 /* Build configuration list for PBXNativeTarget "FlipViewPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				974111D8280628EE002A95E8 /* Debug */,
